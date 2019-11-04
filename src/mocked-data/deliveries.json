@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "name": "Best coffee in the NYC",
+    "distance": 20
+  },
+  {
+    "id": 2,
+    "name": "Pokemon merch",
+    "distance": 24
+  },
+  {
+    "id": 3,
+    "name": "Cutting edge iPhone",
+    "distance": 45
+  },
+  {
+    "id": 4,
+    "name": "Rare pokemon merch",
+    "distance": 1400,
+    "isInternational": true
+  },
+  {
+    "id": 5,
+    "name": "AliExpress delivery",
+    "distance": 2300,
+    "isInternational": true
+  },
+  {
+    "id": 6,
+    "name": "New Car",
+    "distance": 120
+  }
+]
