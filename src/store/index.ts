@@ -1,6 +1,7 @@
 import Vue from 'vue'
 import Vuex from 'vuex'
 import { DeliveryCollection, Delivery } from '@/types'
+import { user } from './user'
 import deliveries from '@/mocked-data/deliveries.json'
 
 Vue.use(Vuex)
@@ -15,7 +16,7 @@ export default new Vuex.Store({
     },
 
     DELETE_DELIVERY: (state, deliveryId: number) => {
-      state.deliveries = state.deliveries.filter(el => el.id !== deliveryId)
+      state.deliveries = state.deliveries.filter((el: Delivery) => el.id !== deliveryId)
     },
 
     UPDATE_DELIVERY: (state, { id, delivery }) => {
@@ -60,5 +61,6 @@ export default new Vuex.Store({
     }
   },
   modules: {
+    user
   }
 })
